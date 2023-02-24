@@ -32,7 +32,7 @@ python Gen_interference_dataset.py
 ## 4. Comparison of old and new datasets of RML2016
 Three commonly utilized datasets for machine learning provide the data for modulation identification: RML2016.10a_dict.pkl, 2016.04C.multisnr.pkl, and RML2016.10b.dat. The samples in the dataset are superimposed by the attack interference to generate new datasets RML2016.10a_int.pkl, RML2016.10b_int.pkl, and RML2016.04c_int.pkl. The addition of INR resulted in an 11-fold increase in the size of the new dataset, as shown in the following table:
 |Dataset name|Sample dimension|Datasize|SNR range(dB)|INR range(dB)|Modulation schemes|
-|-|-|-|-|-|-|
+|:--:|:--:|:--:|:--:|:--:|:--:|
 |RML2016.10a_dict|2×128|220000|-20:2:18|——|11|
 |RML2016.10a_int|2×128|2420000|-20:2:18|-10:2:10|11|
 |RML2016.10b|2×128|1200000|-20:2:18|——|10|
